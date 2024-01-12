@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background-color: #fff;
+    color: #000;
     margin: 0;
     padding: 0;
 }
@@ -33,10 +34,268 @@ body{
 .firstDescription{
     color: white; 
     display: flex;
-     flex-direction: column;
-    padding: 0 15px;
+    flex-direction: column;
+    padding: 0 32px;
 }
 .firstDescription h2{
     margin: 30px 0 0px 0;
 }
 
+.firstDescription p{
+    margin-top: 5px;
+}
+
+
+/* ORDER AND PLAY */
+.orderPlayDescription{
+    padding-bottom: 32px;
+    
+}
+
+.orderPlayDescription h2{
+    padding: 0 32px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+.containerOrder{
+    background-color: #e3012b;
+    width: 95%;
+    margin: 0 auto;
+    color: #fff;
+}
+/* ORDER ONE  */
+
+
+
+.orderOne{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.orderOne img{
+    /* margin: 0 auto; */
+}
+
+
+.orderOne h2{
+    margin: 0;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.orderOne p{
+    margin: 0;
+    width: 292px;
+    text-align: center;
+    padding: 16px;
+}
+
+
+
+/* HR line */
+hr{
+    width: 80%; 
+    height: 3px;
+    background: white; 
+    border: none;
+}
+
+
+
+/* ORDER TWO  */
+
+
+
+.orderTwo{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+.orderTwo img {
+    
+}
+.orderTwo h2{
+    margin: 0;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+.orderTwo p{
+    margin: 0;
+    width: 292px;
+    text-align: center;
+}
+
+
+
+
+/* ORDER THREE  */
+
+
+.orderThree{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.orderThree img {
+    
+}
+.orderThree h2{
+    margin: 0;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+
+.orderThree p{
+    margin: 0;
+    width: 292px;
+    text-align: center;
+}
+
+
+
+
+
+/* MENU */
+
+
+.menuliste{
+    padding: 50px 0;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menuliste img{
+    padding-bottom: 50px;
+}
+
+.menuliste h2{
+    margin: 0;
+    width: 95%;
+}
+
+.menuliste strong{
+    width: 95%;
+}
+
+
+
+/* download app */
+
+
+.downApp{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.downApp h2{
+    margin: 0 auto;
+    text-align: start;
+    width: 90%;
+}
+
+
+.downApp .btndownload{
+    padding: 32px 32px 16px 32px;
+}
+.btn{
+    padding: 12px ;
+    background-color: #e3012b;
+    border: none;
+    color: #fff;
+}
+
+
+
+
+/* FAQS */
+
+.kfcrecompensefaq{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.kfcrecompensefaq h2{
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+}
+
+.hrFaq{
+    background-color: #e3012b;
+}
+
+.btnFaq{
+    width: 200px;
+    height: 45px;
+    font-size: 16px;
+    padding:  0 20px;
+    margin-bottom: 24px;
+    border: solid black 3px;
+    background-color: #fff;
+}
+
+.kfcrecompensefaq strong{
+
+}
+
+
+.kfcrecompensefaq .p2{
+    margin: 0;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.kfcrecompensefaq a{
+    color: #e3012b;
+}
+
+em{
+}
+
+
+
+
+
+
+
+
+/*FOOTER */
+
+
+
+footer{
+    padding: 25px 0;
+    font-size: 26px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    font-size: 12px;
+}
