@@ -1,3 +1,30 @@
+
+@font-face {
+    font-family: fira_sans_condensed;
+    src: url(./font/Fira_Sans_Condensed/FiraSansCondensed-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: fira_sans_condensed_extra_bold;
+    src: url(./font/Fira_Sans_Condensed/FiraSansCondensed-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(./font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url(./font/Roboto/Roboto-Bold.ttf);
+}
+
+
+
+
+
+
 body{
     background-color: #fff;
     color: #000;
@@ -5,30 +32,118 @@ body{
     padding: 0;
 }
 
+
+
+p{
+    color: #000;
+    font-family: roboto-regular;
+
+}
+
+
+
+h2{
+    color: #000;
+    font-family: fira_sans_condensed;
+
+}
+
+h4{
+    font-family: fira_sans_condensed
+}
+
+
+strong{
+    color: #000;
+    font-family: roboto-bold;
+}
+
+
+em{
+    font-family: roboto-regular;
+    font-size: 14px;
+}
+
+
 .container{
     background-color: blue;
     width: 100%;
-    height: 160px;
+    height: 137px;
+    position: fixed;
+    top: 0;
 }
 
 
 .enteteContenu{
     background-color: #fff;
-    widows: 100%;
-    height: 100px;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+
 }
+
+
+
+
+.firstElementEnteteContenu{
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+}
+
+
+/* LOCATION */
 
 .location{
-    background-color: red;
+    background-color: #212121;
     width: 100%;
-    height: 60px;
+    height: 57px;
+    /* padding: 10px 16px; */
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.spanLocation{
+    display: flex;
+    width: 254.11px;
+    height: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
+
+.location p{
+    margin: 0;
+    font-size: 12px;
+    width: 220.11px;
+    height: 32px;
+    color: #fff;
+}
+
+
+
+.btnLocation{
+    padding: 0 20px;
+    height: 37px;
+    background-color: #212121;
+    color: #fff;
+    border: solid 1px ;
+    font-family: fira_sans_condensed_extra_bold;
+    font-size: 14px;
+}
 
 
 /* NAV */
+
+
+
+.imgBanniere{
+    padding-top: 137px;
+}
 
 
 .firstDescription{
@@ -39,10 +154,18 @@ body{
 }
 .firstDescription h2{
     margin: 30px 0 0px 0;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+
+.firstDescription strong{
+    font-size: 14px;
 }
 
 .firstDescription p{
     margin-top: 5px;
+    font-size: 14px;
 }
 
 
@@ -56,8 +179,14 @@ body{
     padding: 0 32px;
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    color: #ff0000;
+    display: flex;
+}
+
+.orderPlayDescription hr{
+    background: #ff0000;
 }
 
 
@@ -71,6 +200,11 @@ body{
     margin: 0 auto;
     color: #fff;
 }
+
+.containerOrder p, h2{
+    color: #fff;
+}
+
 /* ORDER ONE  */
 
 
@@ -167,6 +301,7 @@ hr{
     margin: 0;
     width: 292px;
     text-align: center;
+    padding-bottom: 64px;
 }
 
 
@@ -192,10 +327,18 @@ hr{
 .menuliste h2{
     margin: 0;
     width: 95%;
+    color:#000;
+    font-size: 30px;
 }
+
+.menuliste ul li{
+    font-family: roboto-regular;
+}
+
 
 .menuliste strong{
     width: 95%;
+
 }
 
 
@@ -207,23 +350,27 @@ hr{
     text-align: center;
     background-color: #000;
     color: #fff;
+
 }
 
 .downApp h2{
     margin: 0 auto;
     text-align: start;
     width: 90%;
+    font-size: 30px;
 }
 
 
 .downApp .btndownload{
     padding: 32px 32px 16px 32px;
 }
-.btn{
+.downApp .btn{
     padding: 12px ;
     background-color: #e3012b;
     border: none;
     color: #fff;
+    font-family: fira_sans_condensed_extra_bold;
+    font-size: 16px;
 }
 
 
@@ -240,9 +387,13 @@ hr{
 
 
 .kfcrecompensefaq h2{
-    font-size: 24px;
+    font-size: 32px;
     margin: 0;
+    padding-top: 32px;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000;
 }
 
 .hrFaq{
@@ -257,24 +408,28 @@ hr{
     margin-bottom: 24px;
     border: solid black 3px;
     background-color: #fff;
+    font-family: fira_sans_condensed_extra_bold;
 }
+
 
 .kfcrecompensefaq strong{
-
+font-size: 14px;
 }
 
+
+.kfcrecompensefaq .p1{
+    font-size: 14px;
+}
 
 .kfcrecompensefaq .p2{
     margin: 0;
     text-align: start;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .kfcrecompensefaq a{
     color: #e3012b;
-}
-
-em{
 }
 
 
@@ -296,6 +451,11 @@ footer{
     color: #fff;
 }
 
+footer h4{
+    margin: 0 0 10px;
+}
+
 footer p {
     font-size: 12px;
+    color: #fff;
 }
